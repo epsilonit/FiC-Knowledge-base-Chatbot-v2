@@ -4,6 +4,7 @@ from langchain_chroma import Chroma
 import os
 from langchain.text_splitter import TokenTextSplitter
 
+OPENAI_APIKEY = os.environ['OPENAI_APIKEY']
 
 def build_vector_store():
     # remove metadatafordatacubes.md
@@ -14,7 +15,8 @@ def build_vector_store():
                                       chunk_overlap=350)
     splits = text_splitter.split_documents(docs)
 
-    embeddings_model = OpenAIEmbeddings(model='text-embedding-3-large',
+    embeddings_model = OpenAIEmbeddings(api_key=OPENAI_APIKEY,
+                                        model='text-embedding-3-large',
                                         max_retries=150,
                                         chunk_size=700,
                                         show_progress_bar=True,
