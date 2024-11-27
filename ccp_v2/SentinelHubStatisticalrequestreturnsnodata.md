@@ -1,0 +1,3 @@
+SentinelHubStatistical request returns no data
+When I try the the SentinelHub Statistical API on BYOC Collection, I always get an empty result (`{'data': [], 'status': 'OK'}`). can you please take a look at this example notebook [uc1-urban-climate/blob/master/notebooks/f03_datafusion/statistical_api_v1.ipynb](https://github.com/FAIRiCUBE/uc1-urban-climate/blob/master/notebooks/f03_datafusion/statistical_api_v1.ipynb)? Are there errors in the code, or in the way the Collections were registered to SH?
+Closing this because we found a solution. Collections need to be ingested with given sensing time.

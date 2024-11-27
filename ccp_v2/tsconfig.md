@@ -1,0 +1,1 @@
+{"pandoc-api-version":[1,23,1],"meta":{},"blocks":[{"t":"Para","c":[{"t":"Quoted","c":[{"t":"DoubleQuote"},[{"t":"Str","c":"{"},{"t":"RawInline","c":["tex","\\n  "]},{"t":"Str","c":"\"extends\":"},{"t":"Space"},{"t":"Str","c":"\"../.nuxt/tsconfig.server.json\""},{"t":"RawInline","c":["tex","\\n"]},{"t":"Str","c":"}"},{"t":"RawInline","c":["tex","\\n"]}]]}]}]}
