@@ -24,6 +24,3 @@ def build_vector_store():
     for i in range(0, len(splits), batch_size):
         batch = splits[i:i + batch_size]
         vectorstore = Chroma.from_documents(batch, embeddings_model, persist_directory="./kb_chroma_db_v2")
-
-
-build_vector_store()
