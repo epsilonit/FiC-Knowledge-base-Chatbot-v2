@@ -1,0 +1,2 @@
+difference between KB and other project documentation?
+Can we establish guidance on what the various project info places are meant for? In particular, it is unclear what the difference between KB and readthedocs is.
