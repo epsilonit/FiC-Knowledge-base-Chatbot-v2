@@ -1,0 +1,2 @@
+Provide procedure for KB contributions
+Dear KB maintainers, you write that "input should be provided via an issue" - in what format? What about media? Please provide guidance, we would like to contribute - thanks!

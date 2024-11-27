@@ -1,0 +1,10 @@
+Link between Data Ingestion and Metadata
+Within the [Data Ingestion Request](https://github.com/FAIRiCUBE/data-requests/issues), we collect a great deal of metadata about the datasets we're working with. Once datasets are ingested, this information should be used to fill the corresponding metadata record. 
+However, in addition to the routines that transform the content of the data requests to STAC metadata, some required metadata concepts are missing.
+
+ToDo's as far as I see it are:
+- [EOX] Finalizing the mapping between FAIRiCUBE Metadata Requirements and STAC encoding (D4.2 is still very fuzzy on this. Please compare D4.2 Table 1: Mapping from Requirements to STAC Collection with D4.3 Table 8 – Initial mapping of metadata information requirements toward STAC and update the D4.2 table accordingly. Once this is done, it will also be easier to check if all requirements from D6.2 have been covered)
+- [JUB & EOX] Identify the missing information concepts in the current data request form, add these to the requests
+- [EOX] Implement the routines that extract the dataset metadata from the data request forms and provide this as STAC metadata. 
+[Updated version of D4.1](https://nilu365.sharepoint.com/:w:/r/sites/Horizon2021_CUBE/Shared%20Documents/WP4%20-%20share/ADD/D4_1_Deliverable_FAIRiCUBE-Hub-Architecture_v1.3.docx?d=w0739748011a247758e8dbe613e601da0&csf=1&web=1&e=ffmK26) with explicit mapping to STAC now available on TEAMs. when will you have time to identify the missing concepts and update the data ingestion form? while we have an updated 4.1, I'd really like to have an updated version of 4.2 Public Listing (Catalog) of FAIRiCUBE data resources available on TEAMs for general reference. Could you please provide this (think to date, you've only sent via mail)
+Clarified at meeting 2023_08_08 : Data Ingestion vs. Dataset Metadata, details in MoM

@@ -1,0 +1,22 @@
+90
+ 80
+ 70
+ 60
+ 50
+ 40
+Longitude
+50
+40
+30
+20
+10
+0
+10
+20
+Latitude
+Maxent Predictions for Bradypus variegatus with Background Map
+0.2
+0.4
+0.6
+0.8
+1.0

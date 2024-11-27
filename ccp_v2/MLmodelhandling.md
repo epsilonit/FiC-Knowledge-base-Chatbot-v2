@@ -1,0 +1,6 @@
+ML model handling
+
+as for now it seems that the resource meta-data is target to document which ML algorithm has been applied to create which data but how do we handle the documentation of the ML model as such? can we have a review of how do document a ML model? we would need to have a switch field somewhere if it is a model or data as output and we then we could use most of the fields but instead of a data name we give a ML model name? Trying to understand what you're actually asking. I'd initially thought it's details on describing an ML Model, but the statement on `we would need to have a switch field somewhere if it is a model or data as output...` confuses me.
+
+I do see quite a bit missing on model configuration in the current resource metadata the idea underpinning current resource metadata structure is that a ML algorithm must be evaluated/documented in the context of the specific case where it is applied. The "reference link" field is meant to provide link(s) to available resource documentation e.g., a web page describing the ML algorithm (in the issue #6, for example, the reference link is https://en.wikipedia.org/wiki/LeNet and describes the LeNet Classifier DL resource)
+Is this a reply to your question, or did I get you wrong?

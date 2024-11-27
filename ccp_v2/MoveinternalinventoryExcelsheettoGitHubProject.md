@@ -1,0 +1,2 @@
+Move internal inventory Excel sheet to GitHub Project
+The spreadsheet listing the data inventory has to be moved to [this GitHub Project](https://github.com/orgs/FAIRiCUBE/projects/1/views/5) in order to publicly track data requests and be able to comment useful information like progress of data ingestion and usage code snippets.
