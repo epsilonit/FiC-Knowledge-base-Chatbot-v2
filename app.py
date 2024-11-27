@@ -1,5 +1,11 @@
 import gradio as gr
 import bot
+import os
+import vector_store_builder
+
+if not os.path.isdir('./kb_chroma_db_v2'):
+  print('Vector store building...')
+  vector_store_builder.build_vector_store()
 
 kb_bot = bot.KnowledgeBaseBot(persist_directory='./kb_chroma_db_v2')
 
