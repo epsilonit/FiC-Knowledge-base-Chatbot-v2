@@ -1,0 +1,8 @@
+Better documentation of WebGUI etc
+I just checked D4.2, while it mentions PRs, it doesn't mention on what repo the PRs are. As D4.2 is being updated, maybe add a bit more info on this process (imagine an external user is reading this, they won't find the PR!)
+this might also need to be coverd in our KB
+What's status on KB documentation of the WebGUI?
+Hi 
+in the new version of the [Knowledge Base](https://fairicube.readthedocs.io/en/latest/), WebGUI information can be found in the sub-section describing [how to add datasets](https://fairicube.readthedocs.io/en/latest/user_guide/adding_datasets/) and in the sub-section describing [how to add analysis and processing resources](https://fairicube.readthedocs.io/en/latest/user_guide/adding_ap/). many thanks - looks good! Only issue I see is that the GUI has been updated a bit since you pulled the screen shots. However, as various updates are still in the pipeline, I'd leave for the moment, just remember to update in a few months! : can we align the text provided in D4.2 with what Antonio has now provided in the RTD?
+- could you please stop speaking from the "WebGUI" that is just so vague (it could just be anything). Lets better call it what it is, a  "**Catalog Editor**"  
+- certainly, we can/should align the text between D4.2 & RTD during the upcoming document update I'm very happy with "Catolog Editor", never liked the term WebGUI, but tried to align with project partners. Can you make sure that this new name is propagated through the relevant documents?
