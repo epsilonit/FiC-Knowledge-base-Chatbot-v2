@@ -147,6 +147,7 @@ class KnowledgeBaseBot:
                        ):
         # Load environment and API keys
         load_dotenv()
+        OPENAI_APIKEY = os.environ['OPENAI_APIKEY']
 
         self.embeddings_model_name = embeddings_model_name
         self.temp = temp
@@ -155,14 +156,16 @@ class KnowledgeBaseBot:
         self.persist_directory = persist_directory
 
         # Embeddings Model
-        self.embeddings_model = OpenAIEmbeddings(model=self.embeddings_model_name,
+        self.embeddings_model = OpenAIEmbeddings(api_key=OPENAI_APIKEY,
+                                                 model=self.embeddings_model_name,
                                                  max_retries=100,
                                                  chunk_size=700,
                                                  show_progress_bar=False,
                                                 )
 
         # Initialize Chat Model
-        self.chat_model = ChatOpenAI(temperature=self.temp,
+        self.chat_model = ChatOpenAI(api_key=OPENAI_APIKEY,
+                                     temperature=self.temp,
                                      model=self.chat_model_name,
                                      max_tokens=700
                                      )
