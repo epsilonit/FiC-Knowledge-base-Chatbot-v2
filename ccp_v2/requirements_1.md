@@ -1,0 +1,5 @@
+pystac
+pytest
+shapely
+stactools
+requests-toolbelt

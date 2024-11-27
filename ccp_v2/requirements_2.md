@@ -1,0 +1,3 @@
+pystac
+stactools
+requests-toolbelt
